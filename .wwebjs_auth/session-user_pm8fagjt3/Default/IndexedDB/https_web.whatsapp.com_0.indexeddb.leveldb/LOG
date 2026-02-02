@@ -1,0 +1,14 @@
+2026/02/02-15:11:57.449 41457 Reusing MANIFEST /Users/felipestabelcarvalhoschiavinikenny/Documents/dollar/.wwebjs_auth/session-user_pm8fagjt3/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/02-15:11:57.451 41457 Recovering log #993
+2026/02/02-15:11:57.491 41457 Reusing old log /Users/felipestabelcarvalhoschiavinikenny/Documents/dollar/.wwebjs_auth/session-user_pm8fagjt3/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000993.log 
+2026/02/02-15:11:58.999 41459 Compacting 1@1 + 1@2 files
+2026/02/02-15:11:59.070 41459 Generated table #1009@1: 38904 keys, 1990739 bytes
+2026/02/02-15:11:59.071 41459 Compacted 1@1 + 1@2 files => 1990739 bytes
+2026/02/02-15:11:59.073 41459 compacted to: files[ 0 1 35 0 0 0 0 ]
+2026/02/02-15:11:59.073 41459 Delete type=2 #996
+2026/02/02-15:11:59.073 41459 Delete type=2 #962
+2026/02/02-15:12:00.324 41459 Compacting 1@1 + 2@2 files
+2026/02/02-15:12:00.368 41459 Generated table #1010@1: 36258 keys, 2240702 bytes
+2026/02/02-15:12:00.420 41459 Generated table #1011@1: 19709 keys, 2242039 bytes
+2026/02/02-15:12:00.420 41459 Compacted 1@1 + 2@2 files => 4482741 bytes
+2026/02/02-15:12:00.423 41459 compacted to: files[ 0 0 35 0 0 0 0 ]
