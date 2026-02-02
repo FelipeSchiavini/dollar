@@ -7,8 +7,8 @@ import { startMonitor } from './lib/monitor';
 import { waEvents, whatsappManager } from './lib/whatsappManager';
 
 const dev = process.env.NODE_ENV !== 'production';
-const hostname = 'localhost';
-const port = 3001;
+const hostname = '0.0.0.0'; // Bind to all interfaces for Render
+const port = parseInt(process.env.PORT || '3001', 10);
 
 // Initialize Next.js
 const app = next({ dev, hostname, port });
@@ -68,7 +68,7 @@ app.prepare().then(() => {
                 msg += `Verificando regra: *${desc} R$ ${val}*\n`;
                 msg += "Se você recebeu isso, o alerta está configurado corretamente! ✅";
             } else {
-                msg += "Sua conexão está funcionando! 🚀";
+                msg +=  "Sua conexão está funcionando! 🚀";
             }
 
             // Debug log

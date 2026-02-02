@@ -16,7 +16,9 @@ export const startMonitor = (io: Server) => {
 
 async function checkAndAlert(io: Server) {
     try {
-        const response = await axios.get('https://economia.awesomeapi.com.br/last/USD-BRL');
+const response = await axios.get('https://economia.awesomeapi.com.br/last/USD-BRL', {
+            headers: { 'User-Agent': 'DollarMonitor/1.0' }
+        });
         const data = response.data.USDBRL;
         const currentBid = parseFloat(data.bid);
         const now = new Date();
