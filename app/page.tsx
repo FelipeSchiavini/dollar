@@ -79,20 +79,7 @@ export default function Dashboard() {
         await saveSettingsInternal(alerts, newSessions);
     };
 
-    const handleAddAlert = () => {
-        if (!newAlertTarggetCheck()) return;
 
-        const newAlert: AlertRule = {
-            id: Math.random().toString(36).substr(2, 9),
-            type: newAlertType,
-            value: newAlertValue,
-            targetSession: newAlertTarget
-        };
-
-        const updated = [...alerts, newAlert];
-        setAlerts(updated);
-        saveSettingsInternal(updated, waSessions);
-    };
 
     const handleRemoveAlert = (id: string) => {
         const updated = alerts.filter(a => a.id !== id);
