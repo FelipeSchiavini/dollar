@@ -6,6 +6,7 @@
     "dev": "tsx server.ts",
     "build": "next build",
     "start": "NODE_ENV=production tsx server.ts",
+    "postinstall": "npx puppeteer browsers install chrome",
     "lint": "eslint"
   },
   "dependencies": {
